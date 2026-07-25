@@ -168,7 +168,9 @@ This project is distributed under the **Mozilla Public License 2.0**. See the [`
 
 ## 👤 Author
 
-**MUSA**
+**MUSA**  
+*HR Professional • Data Analytics Practitioner*  
+Building practical, business-focused insights with Excel and Power BI.
 
 ---
 
