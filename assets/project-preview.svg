@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Sales analytics project preview</title>
+  <desc id="desc">Designed preview illustrating an Excel to Power BI sales analytics dashboard workflow.</desc>
+  <defs>
+    <linearGradient id="page" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fafc"/>
+      <stop offset="1" stop-color="#eef4f8"/>
+    </linearGradient>
+    <linearGradient id="nav" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#11283e"/>
+      <stop offset="1" stop-color="#1d3c59"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#10243e" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="900" rx="28" fill="url(#page)"/>
+  <text x="80" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" fill="#10243e">Project Preview</text>
+  <text x="80" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#60768b">Designed overview of the Excel-to-Power BI analytics experience</text>
+
+  <g transform="translate(80 145)" filter="url(#shadow)">
+    <rect width="1280" height="670" rx="24" fill="#ffffff"/>
+    <rect width="210" height="670" rx="24" fill="url(#nav)"/>
+    <rect x="190" width="20" height="670" fill="url(#nav)"/>
+
+    <circle cx="55" cy="56" r="22" fill="#f2c811"/>
+    <rect x="88" y="38" width="88" height="12" rx="6" fill="#ffffff" opacity="0.96"/>
+    <rect x="88" y="58" width="62" height="8" rx="4" fill="#8ea4b8"/>
+
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#dce8f1">
+      <text x="44" y="138">Overview</text>
+      <text x="44" y="194">Orders</text>
+      <text x="44" y="250">Products</text>
+      <text x="44" y="306">Customers</text>
+      <text x="44" y="362">Trends</text>
+      <text x="44" y="418">Data Quality</text>
+    </g>
+    <rect x="22" y="105" width="166" height="50" rx="12" fill="#ffffff" opacity="0.12"/>
+    <rect x="22" y="112" width="5" height="36" rx="3" fill="#f2c811"/>
+
+    <rect x="235" y="28" width="1018" height="74" rx="16" fill="#f8fbfd" stroke="#e2eaf0"/>
+    <text x="270" y="61" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#10243e">Sales Performance Dashboard</text>
+    <text x="270" y="84" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#6b7e90">Assessment 11 • Excel source • Power Query transformation • Power BI reporting</text>
+    <rect x="1084" y="47" width="136" height="36" rx="18" fill="#f2c811"/>
+    <text x="1152" y="70" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#4b4200">REPORT VIEW</text>
+
+    <g transform="translate(235 126)">
+      <g>
+        <rect width="230" height="104" rx="16" fill="#ffffff" stroke="#dfe7ed"/>
+        <rect width="8" height="104" rx="4" fill="#0f6cbd"/>
+        <text x="28" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#6a7d90">TOTAL SALES</text>
+        <text x="28" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="800" fill="#10243e">Validated</text>
+        <text x="28" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#217346">Source-to-report control</text>
+      </g>
+      <g transform="translate(250 0)">
+        <rect width="230" height="104" rx="16" fill="#ffffff" stroke="#dfe7ed"/>
+        <rect width="8" height="104" rx="4" fill="#217346"/>
+        <text x="28" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#6a7d90">ORDER RECORDS</text>
+        <text x="28" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="800" fill="#10243e">Reviewed</text>
+        <text x="28" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#217346">Blank and duplicate checks</text>
+      </g>
+      <g transform="translate(500 0)">
+        <rect width="230" height="104" rx="16" fill="#ffffff" stroke="#dfe7ed"/>
+        <rect width="8" height="104" rx="4" fill="#f2c811"/>
+        <text x="28" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#6a7d90">DATA MODEL</text>
+        <text x="28" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="800" fill="#10243e">Connected</text>
+        <text x="28" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#8a6f00">Relationships and filters</text>
+      </g>
+      <g transform="translate(750 0)">
+        <rect width="268" height="104" rx="16" fill="#ffffff" stroke="#dfe7ed"/>
+        <rect width="8" height="104" rx="4" fill="#7b61a8"/>
+        <text x="28" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#6a7d90">REPORT STATUS</text>
+        <text x="28" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="800" fill="#10243e">Presentation Ready</text>
+        <text x="28" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#7b61a8">Visual and KPI review</text>
+      </g>
+    </g>
+
+    <g transform="translate(235 252)">
+      <rect width="646" height="248" rx="18" fill="#ffffff" stroke="#dfe7ed"/>
+      <text x="28" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" fill="#10243e">Sales Trend</text>
+      <text x="28" y="61" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#6a7d90">Illustrative report visual — open the PBIX for the interactive version</text>
+      <line x1="55" y1="210" x2="610" y2="210" stroke="#dce5ec"/>
+      <line x1="55" y1="88" x2="55" y2="210" stroke="#dce5ec"/>
+      <line x1="55" y1="170" x2="610" y2="170" stroke="#eef2f5"/>
+      <line x1="55" y1="130" x2="610" y2="130" stroke="#eef2f5"/>
+      <path d="M55 195 C110 186,140 162,192 174 S278 128,330 144 S410 107,465 119 S548 72,610 92" fill="none" stroke="#0f6cbd" stroke-width="7" stroke-linecap="round"/>
+      <path d="M55 200 C118 196,148 183,205 187 S295 171,350 166 S438 143,500 150 S565 128,610 137" fill="none" stroke="#217346" stroke-width="5" stroke-linecap="round" opacity="0.78"/>
+      <circle cx="330" cy="144" r="7" fill="#f2c811"/>
+      <circle cx="465" cy="119" r="7" fill="#7b61a8"/>
+    </g>
+
+    <g transform="translate(901 252)">
+      <rect width="352" height="248" rx="18" fill="#ffffff" stroke="#dfe7ed"/>
+      <text x="26" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" fill="#10243e">Category Contribution</text>
+      <circle cx="176" cy="142" r="70" fill="none" stroke="#edf1f4" stroke-width="28"/>
+      <path d="M176 72 A70 70 0 0 1 236 178" fill="none" stroke="#0f6cbd" stroke-width="28" stroke-linecap="round"/>
+      <path d="M236 178 A70 70 0 0 1 128 200" fill="none" stroke="#217346" stroke-width="28" stroke-linecap="round"/>
+      <path d="M128 200 A70 70 0 0 1 106 112" fill="none" stroke="#f2c811" stroke-width="28" stroke-linecap="round"/>
+      <text x="176" y="138" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#6a7d90">SALES</text>
+      <text x="176" y="164" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#10243e">Mix</text>
+    </g>
+
+    <g transform="translate(235 522)">
+      <rect width="1018" height="116" rx="18" fill="#ffffff" stroke="#dfe7ed"/>
+      <text x="26" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" fill="#10243e">Analytics Workflow</text>
+      <g transform="translate(26 52)" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">
+        <rect width="156" height="42" rx="12" fill="#e7f3eb"/>
+        <text x="78" y="27" text-anchor="middle" fill="#217346">Excel Source</text>
+        <text x="178" y="27" fill="#91a2b2">→</text>
+        <rect x="202" width="172" height="42" rx="12" fill="#e6f1f9"/>
+        <text x="288" y="27" text-anchor="middle" fill="#0f6cbd">Power Query</text>
+        <text x="398" y="27" fill="#91a2b2">→</text>
+        <rect x="422" width="172" height="42" rx="12" fill="#fff6c7"/>
+        <text x="508" y="27" text-anchor="middle" fill="#7c6500">Data Model</text>
+        <text x="618" y="27" fill="#91a2b2">→</text>
+        <rect x="642" width="172" height="42" rx="12" fill="#f0ebf8"/>
+        <text x="728" y="27" text-anchor="middle" fill="#6d509c">Dashboard</text>
+        <text x="838" y="27" fill="#91a2b2">→</text>
+        <rect x="862" width="130" height="42" rx="12" fill="#eef4f8"/>
+        <text x="927" y="27" text-anchor="middle" fill="#405a70">Insights</text>
+      </g>
+    </g>
+  </g>
+
+  <text x="720" y="858" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#6d8091">Designed project preview — open eOrderid_powerbi.pbix in Power BI Desktop for the actual interactive report.</text>
+</svg>
