@@ -1,8 +1,8 @@
 <div align="center">
 
-# 📊 Sales Data Analysis — Assessment 11
+<img src="assets/sales-data-cover.svg" alt="Sales Data Analysis — Assessment 11 cover" width="100%" />
 
-**An Excel-to-Power BI sales analytics project for exploring order data and presenting business insights through an interactive report.**
+<br />
 
 [![Microsoft Excel](https://img.shields.io/badge/Data-Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://github.com/samusa099/sales-data-a11/raw/main/Orders.xlsx)
 [![Power BI](https://img.shields.io/badge/Dashboard-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000)](https://github.com/samusa099/sales-data-a11/raw/main/eOrderid_powerbi.pbix)
@@ -13,7 +13,9 @@
 [![Repository Size](https://img.shields.io/github/repo-size/samusa099/sales-data-a11?style=flat-square)](https://github.com/samusa099/sales-data-a11)
 [![Security Policy](https://img.shields.io/badge/security-policy%20available-2ea44f?style=flat-square&logo=github)](SECURITY.md)
 
-[Overview](#-project-overview) • [Files](#-repository-contents) • [Best Uses](#-best-ways-to-use-this-project) • [Workflow](#-analytics-workflow) • [Usage](#-quick-start) • [Full Guide](HOW_TO_USE.md) • [Security](#-security--file-safety) • [License](#-license)
+**An Excel-to-Power BI sales analytics project for reviewing order data, preparing a reliable model and presenting business-focused insights.**
+
+[Overview](#-project-overview) • [Preview](#-project-preview) • [Highlights](#-project-highlights) • [Files](#-repository-contents) • [Uses](#-best-ways-to-use-this-project) • [Workflow](#-analytics-workflow) • [Start](#-quick-start) • [Guide](HOW_TO_USE.md) • [Security](#-security--file-safety) • [Author](#-author)
 
 </div>
 
@@ -21,57 +23,102 @@
 
 ## 🎯 Project Overview
 
-This repository contains a compact sales analytics assessment that connects a source dataset in **Microsoft Excel** with a report developed in **Microsoft Power BI**.
+**Sales Data Analysis — Assessment 11** is a compact portfolio and assessment project that connects an order-level dataset in **Microsoft Excel** with an analytical report in **Microsoft Power BI**.
 
-The project demonstrates a practical analytics workflow:
+The repository demonstrates a practical end-to-end workflow:
 
-- reviewing and organising order-level sales data;
-- preparing and validating the dataset for reporting;
-- building or reviewing a Power BI data model;
-- presenting sales information through interactive visuals;
-- checking KPI, filter, and report accuracy; and
-- documenting the project for learning and portfolio use.
+- reviewing and organising source data;
+- identifying blanks, duplicates, invalid values and inconsistent formats;
+- preparing repeatable transformations through Power Query;
+- reviewing the Power BI data model, relationships and filter behaviour;
+- validating report totals against the Excel source;
+- presenting sales information through structured visuals; and
+- documenting the project for learning, assessment and portfolio use.
 
-> **Project type:** Data analytics assessment and portfolio project.
+> **Project category:** Data analytics assessment and portfolio demonstration.
+
+---
+
+## 🖥️ Project Preview
+
+<p align="center">
+  <img src="assets/project-preview.svg" alt="Designed preview of the Excel-to-Power BI sales analytics project" width="92%" />
+</p>
+
+> The visual above is a **designed project overview**, not an exported screenshot from the PBIX file. Download and open [`eOrderid_powerbi.pbix`](eOrderid_powerbi.pbix) in Microsoft Power BI Desktop to view the actual interactive report.
+
+---
+
+## ✨ Project Highlights
+
+| Capability | What this project demonstrates |
+|---|---|
+| 📗 Excel source management | Reviewing the structure, data types, records, formulas, links and source quality of `Orders.xlsx`. |
+| 🧹 Data preparation | Cleaning and standardising the source before it is used for reporting. |
+| 🔄 Power Query | Building or reviewing repeatable transformation steps and repairing the local source path when required. |
+| 🧩 Data modelling | Checking relationships, aggregation logic, measures, filters and model behaviour. |
+| 📊 Dashboard validation | Comparing KPIs and chart totals with the validated Excel source. |
+| 🧠 Business interpretation | Turning available sales and order information into clear, supportable observations. |
+| 📁 Portfolio documentation | Presenting files, usage instructions, security guidance and project scope professionally on GitHub. |
+
+---
 
 ## 📁 Repository Contents
 
 | File | Type | Purpose |
 |---|---|---|
 | [`Orders.xlsx`](Orders.xlsx) | Excel workbook | Source sales and order dataset used by the project. |
-| [`eOrderid_powerbi.pbix`](eOrderid_powerbi.pbix) | Power BI report | Interactive report and analytics model built from the Excel dataset. |
-| [`HOW_TO_USE.md`](HOW_TO_USE.md) | Detailed guide | Step-by-step instructions, best-use cases, validation checks, analysis ideas, reuse workflow, and troubleshooting. |
-| [`README.md`](README.md) | Documentation | Project overview, file map, workflow, and quick-start instructions. |
-| [`SECURITY.md`](SECURITY.md) | Security policy | Responsible disclosure, data privacy, and binary-file safety guidance. |
+| [`eOrderid_powerbi.pbix`](eOrderid_powerbi.pbix) | Power BI report | Interactive report and analytics model built from the Excel source. |
+| [`HOW_TO_USE.md`](HOW_TO_USE.md) | Detailed guide | Setup, cleaning, refresh, validation, analysis, reuse and troubleshooting instructions. |
+| [`assets/sales-data-cover.svg`](assets/sales-data-cover.svg) | Cover visual | Professional repository cover used at the top of this README. |
+| [`assets/project-preview.svg`](assets/project-preview.svg) | Preview visual | Designed overview of the intended analytics experience. |
+| [`SECURITY.md`](SECURITY.md) | Security policy | Responsible disclosure, privacy and safe binary-file usage guidance. |
 | [`LICENSE`](LICENSE) | MPL 2.0 | Terms governing use and distribution of the repository content. |
+
+---
 
 ## 💡 Best Ways to Use This Project
 
 | Goal | Recommended use |
 |---|---|
-| Learn Excel data preparation | Review headers, formats, blanks, duplicates, dates, categories, and numeric fields. |
-| Practise Power Query | Inspect and improve repeatable data-cleaning and transformation steps. |
-| Develop Power BI skills | Review data sources, relationships, measures, filters, visuals, and report navigation. |
-| Perform sales analysis | Explore trends, order behaviour, and available product, customer, geographic, or channel dimensions. |
-| Build a portfolio project | Present an end-to-end Excel-to-Power BI analytics workflow with clear documentation. |
-| Complete an assessment | Rebuild, validate, improve, or explain the report as a structured analytics exercise. |
-| Reuse the dashboard | Replace the sample records with a compatible dataset and carefully validate the refreshed model. |
-| Improve data governance | Document KPI definitions, assumptions, data-quality issues, privacy controls, and limitations. |
+| Learn Excel data preparation | Review headers, dates, numeric fields, categories, blanks, duplicates and unusual values. |
+| Practise Power Query | Inspect, rename and improve repeatable transformation steps. |
+| Develop Power BI skills | Review sources, relationships, measures, filters, visuals and report navigation. |
+| Perform sales analysis | Explore trends, order behaviour and any product, customer, channel or geographic fields available in the source. |
+| Build a portfolio case study | Present a complete Excel-to-Power BI workflow with documentation and validation controls. |
+| Complete an assessment | Rebuild, explain, validate or extend the report as a structured analytics exercise. |
+| Test a compatible dataset | Replace sample rows while preserving the expected schema and then validate the refreshed model. |
+| Improve data governance | Document KPI definitions, assumptions, data-quality decisions, limitations and privacy controls. |
 
-> The exact analysis depends on the fields available in `Orders.xlsx`. Do not claim findings that the validated dataset cannot support.
+> The exact analysis depends on the fields contained in `Orders.xlsx`. Findings should not exceed what the validated data can support.
 
-📘 **For the complete workflow, read [`HOW_TO_USE.md`](HOW_TO_USE.md).**
+📘 Read the full [`HOW_TO_USE.md`](HOW_TO_USE.md) guide for detailed procedures and troubleshooting.
+
+---
 
 ## 🔄 Analytics Workflow
 
 ```mermaid
 flowchart LR
-    A[Orders.xlsx<br/>Source Data] --> B[Data Review<br/>& Cleaning]
-    B --> C[Power Query<br/>Transformation]
-    C --> D[Power BI<br/>Data Model]
-    D --> E[Interactive<br/>Dashboard]
-    E --> F[Validation &<br/>Business Insights]
+    A[Orders.xlsx<br/>Source Data] --> B[Review &<br/>Clean]
+    B --> C[Power Query<br/>Transform]
+    C --> D[Power BI<br/>Model]
+    D --> E[Interactive<br/>Report]
+    E --> F[Validate &<br/>Interpret]
 ```
+
+### Recommended sequence
+
+1. Download the official project files.
+2. Create a backup working copy.
+3. Review and clean `Orders.xlsx`.
+4. Open `eOrderid_powerbi.pbix` in Power BI Desktop.
+5. Repair the Excel source path when necessary.
+6. Refresh Power Query and the data model.
+7. Validate every KPI, filter and visual.
+8. Document insights, assumptions and limitations.
+
+---
 
 ## 🧰 Tools and Capabilities
 
@@ -79,92 +126,80 @@ flowchart LR
 |---|---|
 | Data source | Microsoft Excel (`.xlsx`) |
 | Reporting | Microsoft Power BI Desktop (`.pbix`) |
-| Data preparation | Data review, cleaning, transformation, and validation |
+| Data preparation | Data review, cleaning, transformation and validation |
+| Modelling | Relationships, measures, calculated logic and filter context |
 | Analysis | Sales and order-level exploratory analysis |
-| Modelling | Relationships, measures, calculated logic, and filter context |
-| Visualisation | KPI cards, charts, filters, interactions, and report views |
-| Documentation | Markdown-based usage, security, and repository guidance |
+| Visualisation | KPI cards, charts, filters, interactions and report pages |
+| Documentation | Markdown-based project, usage and security guidance |
+
+---
 
 ## 🚀 Quick Start
 
-### Option 1 — Download the complete repository
+### Option 1 — Clone the repository
 
 ```bash
 git clone https://github.com/samusa099/sales-data-a11.git
 cd sales-data-a11
 ```
 
-### Option 2 — Download the project files directly
+### Option 2 — Download the main files
 
-- [⬇️ Download the Excel dataset](https://github.com/samusa099/sales-data-a11/raw/main/Orders.xlsx)
-- [⬇️ Download the Power BI report](https://github.com/samusa099/sales-data-a11/raw/main/eOrderid_powerbi.pbix)
-- [📘 Open the complete usage guide](HOW_TO_USE.md)
+- [⬇️ Download `Orders.xlsx`](https://github.com/samusa099/sales-data-a11/raw/main/Orders.xlsx)
+- [⬇️ Download `eOrderid_powerbi.pbix`](https://github.com/samusa099/sales-data-a11/raw/main/eOrderid_powerbi.pbix)
+- [📘 Open `HOW_TO_USE.md`](HOW_TO_USE.md)
 
-### Open and review the project
+### Open and review
 
 1. Keep `Orders.xlsx` and `eOrderid_powerbi.pbix` in the same local project folder.
-2. Open `Orders.xlsx` and inspect its structure, data types, blank values, duplicate records, and external connections.
-3. Open `eOrderid_powerbi.pbix` in Microsoft Power BI Desktop.
-4. If the report cannot locate the workbook, update the source path to the downloaded `Orders.xlsx` file.
-5. Refresh Power Query and the data model.
-6. Check every report page, filter, KPI, and total against the validated source data.
-7. Record analytical findings, assumptions, and limitations before presenting the result.
+2. Inspect the Excel workbook before refreshing the report.
+3. Open the PBIX file in Microsoft Power BI Desktop.
+4. Go to **File → Options and settings → Data source settings** if the workbook path is broken.
+5. Point the report to the downloaded `Orders.xlsx` file.
+6. Refresh the queries and data model.
+7. Compare critical report totals with validated Excel calculations.
 
-> Power BI files cannot be previewed directly on GitHub. Download the `.pbix` file and open it with **Power BI Desktop**.
+> GitHub cannot preview a `.pbix` file directly. It must be downloaded and opened with Power BI Desktop.
 
-## ✅ Recommended Review Checklist
+---
 
-- Confirm that column names and data types are consistent in `Orders.xlsx`.
-- Check for blank, duplicate, invalid, or unusually large records.
-- Inspect Excel formulas, named ranges, external links, and data connections.
-- Verify that the Power BI data-source path points to the correct workbook.
-- Review Power Query transformations for errors or broken column references.
-- Confirm that model relationships and aggregation methods are appropriate.
-- Refresh the model and ensure every report visual loads correctly.
-- Test slicers, cross-filtering, drill-through, and report navigation.
-- Compare critical dashboard totals with validated Excel calculations.
-- Confirm that no credentials, personal records, or confidential business data are included.
+## ✅ Review Checklist
+
+- [ ] The source workbook has been backed up.
+- [ ] Column names and data types are consistent.
+- [ ] Blank, duplicate and invalid records have been reviewed.
+- [ ] Excel formulas, named ranges, links and connections are understood.
+- [ ] Power BI points to the intended workbook.
+- [ ] Power Query refreshes without errors.
+- [ ] Model relationships and aggregation methods are appropriate.
+- [ ] KPI cards and charts match validated source calculations.
+- [ ] Slicers, filters and interactions work as expected.
+- [ ] No credentials, personal records or confidential business data are included.
+
+---
 
 ## 🔐 Security & File Safety
 
-This repository distributes binary Microsoft Excel and Power BI files. Download them only from the official repository and review their connections and embedded content before using them with confidential or production data.
-
-### Security controls and expectations
+This repository distributes binary Microsoft Excel and Power BI files. Download them only from the official repository and inspect their connections and embedded content before using confidential or production data.
 
 | Area | Recommended action |
 |---|---|
 | Download source | Use only the official `samusa099/sales-data-a11` repository. |
-| Excel workbook | Review formulas, named ranges, external links, and data connections before enabling refresh. |
-| Power BI report | Review Power Query sources, data-source settings, refresh credentials, and custom visuals. |
-| Credentials | Never commit or share passwords, tokens, gateway credentials, or connection strings. |
-| Data privacy | Use synthetic, anonymised, or properly authorised data only. |
-| Local protection | Keep Excel and Power BI Desktop updated and scan downloaded files with trusted security software. |
+| Excel workbook | Review formulas, named ranges, external links and data connections before enabling refresh. |
+| Power BI report | Review Power Query sources, data-source settings, refresh credentials and custom visuals. |
+| Credentials | Never commit passwords, access tokens, gateway credentials or connection strings. |
+| Data privacy | Use synthetic, anonymised or properly authorised data only. |
 | Reporting | Do not publish sensitive vulnerability details in a public issue. |
 
-### Before opening or refreshing
+Read the complete [`SECURITY.md`](SECURITY.md) policy for supported repository versions, responsible reporting, severity classification and remediation guidance.
 
-- verify that the file was downloaded from this repository;
-- keep a backup before modifying the workbook or report;
-- inspect external links and queries before approving access;
-- avoid entering production credentials into a public or shared copy; and
-- do not replace sample data with confidential records unless the environment is properly secured.
-
-### Reporting a security concern
-
-Read the complete [`SECURITY.md`](SECURITY.md) policy for:
-
-- supported repository versions;
-- vulnerabilities that are in or out of scope;
-- private and responsible reporting guidance;
-- expected acknowledgement and triage targets;
-- severity classification; and
-- coordinated disclosure and remediation practices.
-
-**Do not publish credentials, personal records, private customer information, confidential company data, or exploit details in a public GitHub issue.** Use GitHub's private vulnerability reporting option from the repository **Security** tab when available.
+---
 
 ## 📄 License
 
-This project is distributed under the **Mozilla Public License 2.0**. See the [`LICENSE`](LICENSE) file for the complete terms.
+This project is distributed under the **Mozilla Public License 2.0**. See [`LICENSE`](LICENSE) for the complete terms.
+
+---
 
 ## 👤 Author
 
@@ -176,8 +211,8 @@ Building practical, business-focused insights with Excel and Power BI.
 
 <div align="center">
 
-**Built for practical sales analytics learning with Excel and Power BI.**
+### 🌟 Practical analytics. Clear documentation. Business-focused learning.
 
-⭐ Star the repository if the project is useful to you.
+⭐ Star the repository if this project is useful to you.
 
 </div>
