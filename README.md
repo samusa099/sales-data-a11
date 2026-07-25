@@ -5,15 +5,15 @@
 <br />
 
 <p align="center">
-  <a href="https://github.com/samusa099/sales-data-a11/raw/main/Orders.xlsx">
+  <a href="https://github.com/samusa099/sales-data-a11/raw/main/data/raw/Orders.xlsx">
     <img alt="Microsoft Excel" src="https://img.shields.io/badge/Data-Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white">
   </a>
   &nbsp;
-  <a href="https://github.com/samusa099/sales-data-a11/raw/main/eOrderid_powerbi.pbix">
+  <a href="https://github.com/samusa099/sales-data-a11/raw/main/reports/power-bi/eOrderid_powerbi.pbix">
     <img alt="Power BI" src="https://img.shields.io/badge/Dashboard-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000">
   </a>
   &nbsp;
-  <a href="HOW_TO_USE.md">
+  <a href="docs/HOW_TO_USE.md">
     <img alt="How to Use" src="https://img.shields.io/badge/Guide-How%20to%20Use-0969DA?style=for-the-badge&logo=readthedocs&logoColor=white">
   </a>
 </p>
@@ -56,7 +56,7 @@
 
 **An Excel-to-Power BI sales analytics project for reviewing order data, preparing a reliable model and presenting business-focused insights.**
 
-[Overview](#-project-overview) • [Preview](#-project-preview) • [Highlights](#-project-highlights) • [Files](#-repository-contents) • [Uses](#-best-ways-to-use-this-project) • [Workflow](#-analytics-workflow) • [Start](#-quick-start) • [Guide](HOW_TO_USE.md) • [Security](#-security--file-safety) • [Author](#-author)
+[Overview](#-project-overview) • [Preview](#-project-preview) • [Highlights](#-project-highlights) • [Files](#-repository-contents) • [Uses](#-best-ways-to-use-this-project) • [Workflow](#-analytics-workflow) • [Start](#-quick-start) • [Guide](docs/HOW_TO_USE.md) • [Security](#-security--file-safety) • [Author](#-author)
 
 </div>
 
@@ -83,10 +83,10 @@ The repository demonstrates a practical end-to-end workflow:
 ## 🖥️ Project Preview
 
 <p align="center">
-  <img src="assets/project-preview.svg" alt="Designed preview of the Excel-to-Power BI sales analytics project" width="70%" />
+  <img src="assets/preview/project-preview.svg" alt="Designed preview of the Excel-to-Power BI sales analytics project" width="70%" />
 </p>
 
-> The visual above is a **designed project overview**, not an exported screenshot from the PBIX file. Download and open [`eOrderid_powerbi.pbix`](eOrderid_powerbi.pbix) in Microsoft Power BI Desktop to view the actual interactive report.
+> The visual above is a **designed project overview**, not an exported screenshot from the PBIX file. Download and open [`eOrderid_powerbi.pbix`](reports/power-bi/eOrderid_powerbi.pbix) in Microsoft Power BI Desktop to view the actual interactive report.
 
 ---
 
@@ -108,13 +108,37 @@ The repository demonstrates a practical end-to-end workflow:
 
 | File | Type | Purpose |
 |---|---|---|
-| [`Orders.xlsx`](Orders.xlsx) | Excel workbook | Source sales and order dataset used by the project. |
-| [`eOrderid_powerbi.pbix`](eOrderid_powerbi.pbix) | Power BI report | Interactive report and analytics model built from the Excel source. |
-| [`HOW_TO_USE.md`](HOW_TO_USE.md) | Detailed guide | Setup, cleaning, refresh, validation, analysis, reuse and troubleshooting instructions. |
-| [`assets/sales-data-cover.svg`](assets/sales-data-cover.svg) | Cover visual | Repository-native fallback cover retained with the project assets. |
-| [`assets/project-preview.svg`](assets/project-preview.svg) | Preview visual | Designed overview of the intended analytics experience. |
+| [`Orders.xlsx`](data/raw/Orders.xlsx) | Excel workbook | Source sales and order dataset used by the project. |
+| [`eOrderid_powerbi.pbix`](reports/power-bi/eOrderid_powerbi.pbix) | Power BI report | Interactive report and analytics model built from the Excel source. |
+| [`HOW_TO_USE.md`](docs/HOW_TO_USE.md) | Detailed guide | Setup, cleaning, refresh, validation, analysis, reuse and troubleshooting instructions. |
+| [`assets/cover/sales-data-cover.svg`](assets/cover/sales-data-cover.svg) | Cover visual | Repository-native fallback cover retained with the project assets. |
+| [`assets/preview/project-preview.svg`](assets/preview/project-preview.svg) | Preview visual | Designed overview of the intended analytics experience. |
 | [`SECURITY.md`](SECURITY.md) | Security policy | Responsible disclosure, privacy and safe binary-file usage guidance. |
 | [`LICENSE`](LICENSE) | MPL 2.0 | Terms governing use and distribution of the repository content. |
+
+### Clean folder structure
+
+```text
+sales-data-a11/
+├── data/
+│   └── raw/
+│       └── Orders.xlsx
+├── reports/
+│   └── power-bi/
+│       └── eOrderid_powerbi.pbix
+├── docs/
+│   └── HOW_TO_USE.md
+├── assets/
+│   ├── cover/
+│   │   └── sales-data-cover.svg
+│   └── preview/
+│       └── project-preview.svg
+├── README.md
+├── SECURITY.md
+└── LICENSE
+```
+
+The root directory is intentionally limited to GitHub-standard project files. Dataset, report, documentation and visual assets are separated by purpose for faster navigation and cleaner downloads.
 
 ---
 
@@ -133,7 +157,7 @@ The repository demonstrates a practical end-to-end workflow:
 
 > The exact analysis depends on the fields contained in `Orders.xlsx`. Findings should not exceed what the validated data can support.
 
-📘 Read the full [`HOW_TO_USE.md`](HOW_TO_USE.md) guide for detailed procedures and troubleshooting.
+📘 Read the full [`HOW_TO_USE.md`](docs/HOW_TO_USE.md) guide for detailed procedures and troubleshooting.
 
 ---
 
@@ -186,19 +210,20 @@ cd sales-data-a11
 
 ### Option 2 — Download the main files
 
-- [⬇️ Download `Orders.xlsx`](https://github.com/samusa099/sales-data-a11/raw/main/Orders.xlsx)
-- [⬇️ Download `eOrderid_powerbi.pbix`](https://github.com/samusa099/sales-data-a11/raw/main/eOrderid_powerbi.pbix)
-- [📘 Open `HOW_TO_USE.md`](HOW_TO_USE.md)
+- [⬇️ Download `Orders.xlsx`](https://github.com/samusa099/sales-data-a11/raw/main/data/raw/Orders.xlsx)
+- [⬇️ Download `eOrderid_powerbi.pbix`](https://github.com/samusa099/sales-data-a11/raw/main/reports/power-bi/eOrderid_powerbi.pbix)
+- [📘 Open `HOW_TO_USE.md`](docs/HOW_TO_USE.md)
 
 ### Open and review
 
-1. Keep `Orders.xlsx` and `eOrderid_powerbi.pbix` in the same local project folder.
-2. Inspect the Excel workbook before refreshing the report.
-3. Open the PBIX file in Microsoft Power BI Desktop.
-4. Go to **File → Options and settings → Data source settings** if the workbook path is broken.
-5. Point the report to the downloaded `Orders.xlsx` file.
-6. Refresh the queries and data model.
-7. Compare critical report totals with validated Excel calculations.
+1. Download the two main project files from their structured folders.
+2. Keep `Orders.xlsx` and `eOrderid_powerbi.pbix` together in a private local working folder.
+3. Inspect the Excel workbook before refreshing the report.
+4. Open the PBIX file in Microsoft Power BI Desktop.
+5. Go to **File → Options and settings → Data source settings** if the workbook path is broken.
+6. Point the report to the local working copy of `Orders.xlsx`.
+7. Refresh the queries and data model.
+8. Compare critical report totals with validated Excel calculations.
 
 > GitHub cannot preview a `.pbix` file directly. It must be downloaded and opened with Power BI Desktop.
 
