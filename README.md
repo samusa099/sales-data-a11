@@ -138,8 +138,7 @@ This project is distributed under the **Mozilla Public License 2.0**. See the [`
 
 ## 👤 Author
 
-**Siam Ahmad Musa**  
-GitHub: [@samusa099](https://github.com/samusa099)
+**MUSA**
 
 ---
 
