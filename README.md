@@ -1,7 +1,6 @@
 <div align="center">
 
-<img width="1536" height="1024" alt="ChatGPT Image Jul 25, 2026, 10_33_14 PM" src="https://github.com/user-attachments/assets/6e50460e-d6f6-4f09-b74c-5f7777ff0dca" />
-
+<img src="https://github.com/user-attachments/assets/6e50460e-d6f6-4f09-b74c-5f7777ff0dca" alt="Sales Data Analysis — Assessment 11 cover" width="75%" />
 
 <br />
 
