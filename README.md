@@ -13,7 +13,7 @@
 [![Repository Size](https://img.shields.io/github/repo-size/samusa099/sales-data-a11?style=flat-square)](https://github.com/samusa099/sales-data-a11)
 [![Security Policy](https://img.shields.io/badge/security-policy%20available-2ea44f?style=flat-square&logo=github)](SECURITY.md)
 
-[Overview](#-project-overview) • [Files](#-repository-contents) • [Workflow](#-analytics-workflow) • [Usage](#-how-to-use) • [License](#-license)
+[Overview](#-project-overview) • [Files](#-repository-contents) • [Workflow](#-analytics-workflow) • [Usage](#-how-to-use) • [Security](#-security--file-safety) • [License](#-license)
 
 </div>
 
@@ -40,7 +40,7 @@ The project demonstrates a practical analytics workflow:
 | [`Orders.xlsx`](Orders.xlsx) | Excel workbook | Source sales and order dataset used by the project. |
 | [`eOrderid_powerbi.pbix`](eOrderid_powerbi.pbix) | Power BI report | Interactive report and analytics model built from the Excel dataset. |
 | [`README.md`](README.md) | Documentation | Project overview, file guide, workflow, and usage instructions. |
-| [`SECURITY.md`](SECURITY.md) | Security policy | Guidance for responsibly reporting security concerns. |
+| [`SECURITY.md`](SECURITY.md) | Security policy | Responsible disclosure, data privacy, and binary-file safety guidance. |
 | [`LICENSE`](LICENSE) | MPL 2.0 | Terms governing use and distribution of the repository content. |
 
 ## 🔄 Analytics Workflow
@@ -95,11 +95,42 @@ cd sales-data-a11
 - Refresh the model and confirm that all report visuals load correctly.
 - Review filter interactions and totals before using the report for presentation or decision support.
 
-## 🔐 Security
+## 🔐 Security & File Safety
 
-Please review the repository's [Security Policy](SECURITY.md) before reporting a vulnerability or security-related concern.
+This repository distributes binary Microsoft Excel and Power BI files. Download them only from the official repository and review their connections and embedded content before using them with confidential or production data.
 
-Do not publish credentials, private customer information, confidential company data, or other sensitive material in a public issue.
+### Security controls and expectations
+
+| Area | Recommended action |
+|---|---|
+| Download source | Use only the official `samusa099/sales-data-a11` repository. |
+| Excel workbook | Review formulas, named ranges, external links, and data connections before enabling refresh. |
+| Power BI report | Review Power Query sources, data-source settings, refresh credentials, and custom visuals. |
+| Credentials | Never commit or share passwords, tokens, gateway credentials, or connection strings. |
+| Data privacy | Use synthetic, anonymized, or properly authorized data only. |
+| Local protection | Keep Excel and Power BI Desktop updated and scan downloaded files with trusted security software. |
+| Reporting | Do not publish sensitive vulnerability details in a public issue. |
+
+### Before opening or refreshing
+
+- verify that the file was downloaded from this repository;
+- keep a backup before modifying the workbook or report;
+- inspect external links and queries before approving access;
+- avoid entering production credentials into a public or shared copy;
+- do not replace sample data with confidential records unless the environment is properly secured.
+
+### Reporting a security concern
+
+Read the complete [`SECURITY.md`](SECURITY.md) policy for:
+
+- supported repository versions;
+- vulnerabilities that are in or out of scope;
+- private and responsible reporting guidance;
+- expected acknowledgement and triage targets;
+- severity classification;
+- coordinated disclosure and remediation practices.
+
+**Do not publish credentials, personal records, private customer information, confidential company data, or exploit details in a public GitHub issue.** Use GitHub's private vulnerability reporting option from the repository **Security** tab when available.
 
 ## 📄 License
 
