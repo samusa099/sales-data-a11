@@ -4,14 +4,55 @@
 
 <br />
 
-[![Microsoft Excel](https://img.shields.io/badge/Data-Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://github.com/samusa099/sales-data-a11/raw/main/Orders.xlsx)
-[![Power BI](https://img.shields.io/badge/Dashboard-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000)](https://github.com/samusa099/sales-data-a11/raw/main/eOrderid_powerbi.pbix)
-[![Usage Guide](https://img.shields.io/badge/Guide-How%20to%20Use-0969da?style=for-the-badge&logo=readthedocs&logoColor=white)](HOW_TO_USE.md)
+<p align="center">
+  <a href="https://github.com/samusa099/sales-data-a11/raw/main/Orders.xlsx">
+    <img alt="Microsoft Excel" src="https://img.shields.io/badge/Data-Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white">
+  </a>
+  &nbsp;
+  <a href="https://github.com/samusa099/sales-data-a11/raw/main/eOrderid_powerbi.pbix">
+    <img alt="Power BI" src="https://img.shields.io/badge/Dashboard-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000">
+  </a>
+  &nbsp;
+  <a href="HOW_TO_USE.md">
+    <img alt="How to Use" src="https://img.shields.io/badge/Guide-How%20to%20Use-0969DA?style=for-the-badge&logo=readthedocs&logoColor=white">
+  </a>
+</p>
 
-[![License](https://img.shields.io/github/license/samusa099/sales-data-a11?style=flat-square)](LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/samusa099/sales-data-a11?style=flat-square)](https://github.com/samusa099/sales-data-a11/commits/main)
-[![Repository Size](https://img.shields.io/github/repo-size/samusa099/sales-data-a11?style=flat-square)](https://github.com/samusa099/sales-data-a11)
-[![Security Policy](https://img.shields.io/badge/security-policy%20available-2ea44f?style=flat-square&logo=github)](SECURITY.md)
+<p align="center">
+  <a href="LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/samusa099/sales-data-a11?style=flat-square&label=license">
+  </a>
+  &nbsp;
+  <a href="https://github.com/samusa099/sales-data-a11/commits/main">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/samusa099/sales-data-a11?style=flat-square&label=last%20commit">
+  </a>
+  &nbsp;
+  <a href="https://github.com/samusa099/sales-data-a11">
+    <img alt="Repository Size" src="https://img.shields.io/github/repo-size/samusa099/sales-data-a11?style=flat-square&label=repo%20size">
+  </a>
+  &nbsp;
+  <a href="SECURITY.md">
+    <img alt="Security Policy" src="https://img.shields.io/badge/security-policy%20available-2EA44F?style=flat-square&logo=github">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/samusa099/sales-data-a11/stargazers">
+    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/samusa099/sales-data-a11?style=flat-square&logo=github&label=stars">
+  </a>
+  &nbsp;
+  <a href="https://github.com/samusa099/sales-data-a11/forks">
+    <img alt="GitHub Forks" src="https://img.shields.io/github/forks/samusa099/sales-data-a11?style=flat-square&logo=github&label=forks">
+  </a>
+  &nbsp;
+  <a href="https://github.com/samusa099/sales-data-a11/issues">
+    <img alt="Open Issues" src="https://img.shields.io/github/issues/samusa099/sales-data-a11?style=flat-square&logo=github&label=issues">
+  </a>
+  &nbsp;
+  <img alt="Assessment 11" src="https://img.shields.io/badge/Assessment-11-6F42C1?style=flat-square">
+  &nbsp;
+  <img alt="Portfolio Project" src="https://img.shields.io/badge/Project-Portfolio-0A66C2?style=flat-square">
+</p>
 
 **An Excel-to-Power BI sales analytics project for reviewing order data, preparing a reliable model and presenting business-focused insights.**
 
@@ -42,7 +83,7 @@ The repository demonstrates a practical end-to-end workflow:
 ## 🖥️ Project Preview
 
 <p align="center">
-  <img src="assets/project-preview.svg" alt="Designed preview of the Excel-to-Power BI sales analytics project" width="92%" />
+  <img src="assets/project-preview.svg" alt="Designed preview of the Excel-to-Power BI sales analytics project" width="70%" />
 </p>
 
 > The visual above is a **designed project overview**, not an exported screenshot from the PBIX file. Download and open [`eOrderid_powerbi.pbix`](eOrderid_powerbi.pbix) in Microsoft Power BI Desktop to view the actual interactive report.
@@ -70,7 +111,7 @@ The repository demonstrates a practical end-to-end workflow:
 | [`Orders.xlsx`](Orders.xlsx) | Excel workbook | Source sales and order dataset used by the project. |
 | [`eOrderid_powerbi.pbix`](eOrderid_powerbi.pbix) | Power BI report | Interactive report and analytics model built from the Excel source. |
 | [`HOW_TO_USE.md`](HOW_TO_USE.md) | Detailed guide | Setup, cleaning, refresh, validation, analysis, reuse and troubleshooting instructions. |
-| [`assets/sales-data-cover.svg`](assets/sales-data-cover.svg) | Cover visual | Professional repository cover used at the top of this README. |
+| [`assets/sales-data-cover.svg`](assets/sales-data-cover.svg) | Cover visual | Repository-native fallback cover retained with the project assets. |
 | [`assets/project-preview.svg`](assets/project-preview.svg) | Preview visual | Designed overview of the intended analytics experience. |
 | [`SECURITY.md`](SECURITY.md) | Security policy | Responsible disclosure, privacy and safe binary-file usage guidance. |
 | [`LICENSE`](LICENSE) | MPL 2.0 | Terms governing use and distribution of the repository content. |
