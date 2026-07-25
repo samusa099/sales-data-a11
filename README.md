@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="assets/sales-data-cover.svg" alt="Sales Data Analysis — Assessment 11 cover" width="100%" />
+<img width="1536" height="1024" alt="ChatGPT Image Jul 25, 2026, 10_33_14 PM" src="https://github.com/user-attachments/assets/6e50460e-d6f6-4f09-b74c-5f7777ff0dca" />
+
 
 <br />
 
