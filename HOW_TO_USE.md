@@ -75,16 +75,11 @@ Keeping the Excel workbook and Power BI file in the same project folder makes da
 ## 🔄 Recommended Workflow
 
 ```mermaid
-flowchart TD
-    A[Download Official Files] --> B[Create a Backup Copy]
-    B --> C[Inspect Orders.xlsx]
-    C --> D[Clean and Validate Data]
-    D --> E[Open Power BI Report]
-    E --> F[Repair Data Source if Needed]
-    F --> G[Refresh Power Query and Model]
-    G --> H[Validate KPIs and Visuals]
-    H --> I[Analyse and Document Insights]
-    I --> J[Export or Present Results]
+flowchart LR
+    A[Download & Backup] --> B[Review & Clean Excel]
+    B --> C[Connect & Refresh Power BI]
+    C --> D[Validate KPIs & Visuals]
+    D --> E[Analyse & Present]
 ```
 
 ---
@@ -395,4 +390,6 @@ Before presenting, publishing, or submitting the project:
 
 ## 👤 Author
 
-**MUSA**
+**MUSA**  
+*HR Professional • Data Analytics Practitioner*  
+Building practical, business-focused insights with Excel and Power BI.
